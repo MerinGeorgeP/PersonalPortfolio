@@ -12,18 +12,6 @@ const About = () => {
       </div>
       
       <div className="grid lg:grid-cols-2 gap-12 items-center">
-        <div className="relative">
-          <div className="w-full max-w-md mx-auto relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 rounded-2xl transform rotate-3"></div>
-            <img 
-              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
-              alt="Merin George P"
-              className="relative w-full rounded-2xl object-cover"
-            />
-          </div>
-        </div>
-        
-        <div className="space-y-6">
           <p className="text-gray-300 text-lg leading-relaxed font-mono">
             Hi, I'm Merin George P — an aspiring Computer Science Engineer passionate about 
             <span className="text-green-400"> Artificial Intelligence</span>, 

@@ -11,18 +11,6 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%2300ff88%22 fill-opacity=%220.05%22%3E%3Ccircle cx=%2230%22 cy=%2230%22 r=%221%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
       
       <div className="text-center z-10 px-4">
-        <div className="mb-8">
-          <div className="inline-block p-1 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 rounded-full">
-            <div className="w-32 h-32 bg-gray-800 rounded-full flex items-center justify-center">
-              <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
-                alt="Merin George P"
-                className="w-28 h-28 rounded-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-        
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           <span className="text-white font-mono">Hello, I'm </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 font-mono">
